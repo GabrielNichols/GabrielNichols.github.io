@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded',function(){
         evento.append(data)
         evento.append(local)
 
-        sessionStorage.setItem('evento', '0')
+    
     }
 })
