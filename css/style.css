@@ -1,0 +1,202 @@
+.perfil { 
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    margin: 0.5rem;
+}
+
+.header-perfil{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.foto-perfil{
+    width: 120px;
+    height: 120px;
+    top: 0rem;
+    margin: 0.1rem;
+    display: table;
+}
+
+.nome-usuario{
+    font-size:2rem;
+    font-family: 'Arvo', serif;
+}
+
+.aba-evento{
+    height: 80%;
+    border: .2rem solid #559C3B;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.pesquisar { 
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin: 0.5rem;
+}
+
+.titulo { 
+    position: absolute;
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -3rem;
+    top: 0.45rem;
+    font-family: 'Arvo', serif;
+}
+
+body {
+    padding: 3rem 1rem;
+    background-color: #D7FFC9;
+
+}
+
+ul { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.3rem;
+}
+
+li {
+    display: flex;
+    width: 50px;
+    height: 15px;
+    border: .2rem solid #559C3B;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 2rem 8rem;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+}
+
+h2 { 
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    font-family: 'Arvo', serif;
+}
+
+.testa{
+    margin-top: .5rem;
+    padding-top: 0.5px;
+    font-family: 'Arvo', serif;
+}
+
+.barra-inferior {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+.adicionar{
+    margin: 0;
+}
+
+
+.barra-inferior>a>img{
+    width: 35px;
+    height: 35px;
+}
+
+.imagem-evento {
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 1rem;
+}
+
+.data {
+    position: absolute;
+    top: 0.5rem;
+    text-align: center;
+    right: 1.25rem;
+    font-family: 'Arvo', serif;
+}
+
+.local {
+    position: absolute;
+    top: 1.5rem;
+    text-align: center;
+    right: 0.20rem;
+    font-family: 'Arvo', serif;
+}
+
+.evento {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 5.65rem;
+    height: 5.1rem;
+    left: 5rem;
+    font-family: 'Arvo', serif;
+}
+
+.botao_confirmar{
+    border: .2rem solid #559C3B;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Arvo', serif;
+    margin:1rem;
+}
+.testa_confirmado{
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+}
+h3{
+    font-family: 'Arvo', serif;
+}
+.descrição{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.caixa {
+    height: 70%;
+    width: 50%;
+    background-color: #D7FFC9;
+    border: .2rem solid #559C3B;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    padding: 1rem;
+}
